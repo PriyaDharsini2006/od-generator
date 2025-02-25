@@ -171,17 +171,7 @@ export default function Home() {
                   />
                 </div>
                 
-                <div className="flex flex-col">
-                  <label className="leading-loose">Department</label>
-                  <input 
-                    type="text" 
-                    name="recipientDepartment"
-                    value={formData.recipientDepartment}
-                    onChange={handleChange}
-                    className="px-4 py-2 border focus:ring-blue-500 focus:border-blue-500 w-full sm:text-sm border-gray-300 rounded-md focus:outline-none text-gray-600" 
-                    placeholder="Computer Science" 
-                  />
-                </div>
+               
                 
                 <div className="flex flex-col">
                   <label className="leading-loose">Event Date</label>
