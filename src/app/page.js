@@ -14,8 +14,67 @@ const events = [
   'Project Exhibition',
   'Coding Contest',
   'Sports Meet',
-  'Quiz Competition'
+  'Quiz Competition',
+
+  // New Events
+  'IPL Auction',
+  'Load the Lyrics',
+  'Funzone',
+  'Graphite-TY',
+  'Film Fanatics',
+  'Frame Spot',
+  'Solo Dance',
+  'Duo Dance',
+  'Cypher',
+  'Behind the Yellow Tapes',
+  'Treasure Hunt',
+  
+  'H2O Rocketry',
+  'Brand Marketing',
+  'UI/UX (Designers Onboard)',
+  
+  'Aeromodelling',
+  'World of OpenSource with GitHub',
+  'IoT and Embedded Systems',
+
+  'Stress Interview',
+  'Real to Reel',
+  'TK TV',
+  'Solo Singing',
+  'Group Singing',
+  'Treasure Hunt',
+  'Surprise Event',
+  'On-Air (RJ Hunt)',
+  'Connection: Music',
+
+  'Paper Presentation',
+  'Tech Quest',
+  'Reverse Engineering Challenge',
+  'Trial Tracks',
+
+  'Cybersecurity',
+  'Full Stack',
+  'CITIL - Idea to Impact',
+
+  'Street Music Jam',
+  'Word Whiz',
+  'Talking Heads',
+  'Anime Gauntlet',
+  'Music Quiz',
+  'Shipwreck',
+  'Rap-a-Thon',
+  'Treasure Hunt',
+
+  'Radio Wheels',
+  'Dark Web Treasure Hunt',
+  'Binary Symphony',
+
+  'Music Production',
+  'AI/ML with IoT',
+  'Networking with Linux',
+  'Drone'
 ];
+
 
 export default function Home() {
   const [formData, setFormData] = useState({
